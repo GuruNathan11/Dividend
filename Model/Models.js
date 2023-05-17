@@ -7,15 +7,15 @@ var Schema = new Schema({
         type     : String
     },
     type:{
-        required : true,
+        required : false,
         type     : String
     },
     fv:{
-        required : true,
+        required : false,
         type     : Number
     },
     percentage:{
-        required : true,
+        required : false,
         type     : Number
     },
     dividendAmount:{
@@ -23,15 +23,15 @@ var Schema = new Schema({
         type     : String
     },
     announcement:{
-        required : true,
+        required : false,
         type     : String
     },
     record:{
-        required : true,
+        required : false,
         type     : String
     },
     ex_dividend:{
-        required : true,
+        required : false,
         type     : String
     }
     
